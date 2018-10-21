@@ -35,9 +35,9 @@ eureka:
 spring:
   profiles: dev
 eureka:
-  host: eureka
+  host: eureka-server
 ---
 spring:
   profiles: prd
 eureka:
-  host: eureka
+  host: eureka-server
